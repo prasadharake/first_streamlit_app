@@ -1,4 +1,4 @@
-import streamlit
+import streamlit st
 
-streamlit.title('My Parents New Healthy Diner')
-streamlit.title('Breakfast Menu')
+st.title('My Parents New Healthy Diner')
+st.subheader('Breakfast Menu ')
