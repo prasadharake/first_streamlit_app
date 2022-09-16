@@ -53,7 +53,7 @@ if st.button('Get Fruit load list'):
    my_data_rows=get_fruit_load_list()
    st.dataframe(my_data_rows)
 
-
+st.stop()
 #Allow the end user to add fruit to the list 
 add_my_fruit=st.text_input("What fruit would you like to add?")
 st.write('Thanks for adding  ', add_my_fruit)
