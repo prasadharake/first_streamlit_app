@@ -41,9 +41,6 @@ try:
 except URLError as e:
    st.error()
 
-#Dont run anything past here till ew troubleshoot
-st.stop()
-
 st.header("The Fruit load list contains:")
 
 def get_fruit_load_list():
